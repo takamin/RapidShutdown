@@ -40,9 +40,9 @@ int daemon_main(int argc, char* argv[], char* envp[])
         dlog(LOG_ERR, "fail to ignore SIGHUP.\n");
         return 2;
     }
-	gpio_init();
-	GPIO_PORT* GPIO_PED_BUTTON = gpio_port_input_pullup(25);
-	while(!sigterm && !sigint) {
+    gpio_init();
+    GPIO_PORT* GPIO_PED_BUTTON = gpio_port_input_pullup(25);
+    while(!sigterm && !sigint) {
         if(shutdown) {
             usleep(1000000);
         } else {
@@ -56,8 +56,7 @@ int daemon_main(int argc, char* argv[], char* envp[])
                 usleep(10000);
             }
         }
-	}
+    }
     dlog(LOG_INFO, "shutdownd stopped.\n");
-	return 0;
+    return 0;
 }
-
