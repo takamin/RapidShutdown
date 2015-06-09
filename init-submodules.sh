@@ -1,3 +1,3 @@
 #!/bin/sh
 git submodule update --init daemonize
-git submodule update --init pigpio
+git submodule update --init WiringPi
