@@ -42,5 +42,4 @@ cd ..
 以下のサブモジュールを使用しています。
 
 * [daemonize](https://github.com/takamin/daemonize) - Raspberry Pi デーモン化ライブラリ
-* [pigpio](https://github.com/takamin/pigpio) - Raspberry Pi GPIO 入出力ライブラリ
 * [WiringPi](https://github.com/takamin/WiringPi) - Gordon's Arduino wiring-like WiringPi Library for the Raspberry Pi (LGPLv3)
