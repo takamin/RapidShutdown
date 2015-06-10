@@ -55,6 +55,7 @@ int daemon_main(int argc, char* argv[], char* envp[])
             if(button_pushed) {
                 shutdown = 1;
                 syslog(LOG_INFO, "shutdownd is going to shutdown the system.");
+                system("shutdown -h now");
             }
             usleep(10000);
         }
