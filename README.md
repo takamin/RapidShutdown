@@ -1,5 +1,5 @@
-BUTTON-DOWN - Rapid Shutdown Daemon
-====================================
+Rapid Shutdown Daemon for Raspberry Pi 
+======================================
 
 ラズパイのGPIOに接続したボタンからシャットダウンを行うデーモンです。
 
