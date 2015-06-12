@@ -11,7 +11,7 @@ Rapid Shutdown Daemon for Raspberry Pi
 以下を実行してビルドして自動起動のデーモン __shutdownd__ を設定します。
 
 ```bash
-git clone https://github.com/takamin/button-down.git
+git clone https://github.com/takamin/RapidShutdown.git
 cd button-down
 ./init-submodules.sh
 mkdir build
