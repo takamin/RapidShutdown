@@ -1,3 +1,11 @@
+/*
+ * shutdownd.c - raspberry pi shutdown daemon
+ *
+ * RapidShutdown - Windows Console Library
+ * Copyright (c) 2015 Koji Takami
+ * Released under the MIT license
+ * https://github.com/takamin/RapidShutdown/blob/master/LICENSE
+ */
 #include <stdlib.h>
 #include <syslog.h>
 #include <signal.h>

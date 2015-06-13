@@ -1,3 +1,11 @@
+/*
+ * daemon_main.c - shutdown daemon main function
+ *
+ * RapidShutdown - Windows Console Library
+ * Copyright (c) 2015 Koji Takami
+ * Released under the MIT license
+ * https://github.com/takamin/RapidShutdown/blob/master/LICENSE
+ */
 #include <stdio.h>
 #include <getopt.h>
 #ifndef __MINGW32__
