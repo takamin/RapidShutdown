@@ -1,5 +1,5 @@
-Rapid Shutdown Daemon for Raspberry Pi 
-======================================
+RapidShutdown - Raspberry Pi Shutdown Daemon
+============================================
 
 ラズパイのGPIOに接続したボタンからシャットダウンを行うデーモンです。
 
