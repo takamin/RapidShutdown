@@ -30,7 +30,7 @@ cd ..
 * とりあえずブレッドボードとタクトスイッチを使っていますが、なければGPIOの25とGNDをショートさせてもシャットダウンします。
 * GNDはどのGNDでもかまいません。よく見ると25番のとなりにGNDがありますね。ここに直接付けられるスイッチがあれば良いですね。
 
-![GPIOの25番にスイッチを接続。もう一方の端子はGNDへ。](breadboard.png "ブレッドボード配線図")
+![GPIOの25番にスイッチを接続。もう一方の端子はGNDへ。](https://raw.githubusercontent.com/takamin/RapidShutdown/master/breadboard.png "ブレッドボード配線図")
 
 
 
